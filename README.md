@@ -1,4 +1,4 @@
-# # SDXL vs SDXL Turbo vs SD3.5 Comparison
+# SDXL vs SDXL Turbo vs SD3.5 Comparison
 A side-by-side comparison of SDXL, SDXL Turbo, and SD3.5 on identical prompts, analyzing generation speed, image quality, and FID scores with visual examples.
 
 This project compares three Stable Diffusion models:
@@ -33,22 +33,23 @@ The Fréchet Inception Distance (FID) measures visual quality similarity between
 
 ---
 
-## Usage
+## Setup
 
-Follow these steps to reproduce the SDXL, SDXL Turbo, and SD3.5 comparison results:  
+You can install dependencies using either **conda** or **pip**:
+
+### Option 1: Conda (recommended for GPU support)
 
 ```bash
-git clone https://github.com/yourusername/sdxl-comparison.git
-cd sdxl-comparison
+conda env create -f environment.yml
+conda activate sdxl-comparison
 ```
-
-Install Dependencies  
-
-Make sure you have Python 3.10+ installed, then install all required packages:  
+### Option 2: pip (CPU-only or lightweight setup)
 
 ```bash
 pip install -r requirements.txt
 ```
+
+### Configuration
 
 Authenticate with Hugging Face  
 
@@ -60,9 +61,11 @@ Open sdxl_comparison.py and replace:
 hf_token = "YOUR_HUGGINGFACE_TOKEN"
 ```
 
-Run the Comparison  
+---
 
-Execute the main script to generate and evaluate images:  
+## Usage
+
+Run the comparison script:
 
 ```bash
 python sdxl_comparison.py
