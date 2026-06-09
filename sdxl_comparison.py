@@ -1,13 +1,14 @@
 # =============================
 # SDXL vs SDXL Turbo vs SD3.5 Comparison
-# Student 17 (Prompts 161–170)
+# Author: Jamal Mapp
+# (Prompts 161–170)
 # =============================
 
 # -----------------------------
 # Hugging Face Authentication
 # -----------------------------
 from huggingface_hub import login
-hf_token = "YOUR_HUGGINGFACE_TOKEN"
+hf_token = "YOUR_HUGGINGFACE_TOKEN" # Paste your hugging face token here.
 login(hf_token)
 
 # -----------------------------
