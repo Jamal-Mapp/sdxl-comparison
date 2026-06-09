@@ -1,7 +1,7 @@
 # =============================
 # SDXL vs SDXL Turbo vs SD3.5 Comparison
 # Author: Jamal Mapp
-# Date created: 
+# Date created: October 9th, 2025
 # Last modified: June 8th, 2026
 # (Prompts 161–170)
 # =============================
