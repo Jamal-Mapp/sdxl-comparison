@@ -68,7 +68,7 @@ hf_token = "YOUR_HUGGINGFACE_TOKEN"
 Run the comparison script:
 
 ```bash
-python sdxl_comparison.py
+python src/sdxl_comparison.py
 ```
 
 The script will:  
